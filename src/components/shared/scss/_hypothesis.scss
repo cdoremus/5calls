@@ -65,6 +65,20 @@
     }
   }
 
+  &__shirts {
+    text-align: center;
+
+    img {
+      width: 635px;
+      margin: 0 auto;  
+
+      @include bp(medium) {
+        width: 100%;
+      }
+
+    }
+  }
+
   &__subtitle {
     margin-bottom: 26px;
     font-size: 32px;
