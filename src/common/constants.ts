@@ -11,7 +11,7 @@ export const GROUP_API_URL = `${API_URL}/groups`;
 export const CONTACTS_API_URL = `${API_URL}/contacts`;
 export const IP_INFO_URL = 'https://ipinfo.io/json';
 export const DONATE_URL = 'https://secure.actblue.com/donate/5calls-donate';
-export const TSHIRTS_URL = '';
+export const TSHIRTS_URL = 'https://cottonbureau.com/stores/5-calls#/shop';
 
 export const zipCodeRegex: RegExp = /^\d{5}(-\d{4})?$/;
 

@@ -16,13 +16,13 @@ export const Why5calls: React.StatelessComponent<Props> = (props: Props) => (
       <h1 className="hypothesis__title">Make Your Shirt Heard</h1>
       <h2 className="hypothesis__subtitle">
         {/*tslint:disable-next-line:max-line-length*/}
-        <a href={Constants.TSHIRTS_URL}>TWO WEEKS ONLY</a>: Grab a limited edition 5 Calls T-Shirt, the perfect attire for Town Halls, Protests and Marches!
+        <a href={Constants.TSHIRTS_URL}>TWO WEEKS ONLY</a>: Grab a limited edition 5 Calls t-shirt, the perfect attire for Town Halls, Protests and Marches!
       </h2>
       <div className="hypothesis__shirts">
         <a href={Constants.TSHIRTS_URL}><img src="/img/5calls-shirts@2x.png" alt="5 Calls T-Shirts"/></a>
       </div>
       {/*tslint:disable-next-line:max-line-length*/}
-      <p>We teamed up with our friends at Cotton Bureau to bring you high-quality T-Shirts and Hats from our 5 Calls design team. Let people know you can Make Your Voice Heard. Proceeds go to supporting 5 Calls: <a href={Constants.TSHIRTS_URL}>Shop Now!</a></p>
+      <p>We teamed up with our friends at Cotton Bureau to bring you high-quality t-shirts and hats from our 5 Calls design team. Let people know you can Make Your Voice Heard. Proceeds go to supporting 5 Calls: <a href={Constants.TSHIRTS_URL}>Shop Now!</a></p>
       <CallCount
         totalCount={props.totalCount}
         t={i18n.t}
