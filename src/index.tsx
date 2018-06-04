@@ -27,6 +27,7 @@ import { CallPageContainer } from './components/call';
 import { MyImpactPageContainer } from './components/myimpact';
 import { GroupPageContainer, GroupCallPageContainer } from './components/groups';
 import './components/bundle.css';
+import '@5calls/react-components/lib/index.css';
 import { Auth0CallbackContainer } from './components/shared';
 
 ReactGA.initialize('UA-90915119-1');
